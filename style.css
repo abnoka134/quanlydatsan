@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     background: #fff;
 }
 
@@ -264,4 +264,15 @@ a {
     margin-top: 10px; 
     font-size: 14px; 
     color: #8c52ff;
+}
+
+.policy-text {
+    
+    text-align: left;
+}
+
+.policy {
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: left;
 }
