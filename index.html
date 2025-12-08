@@ -15,7 +15,7 @@
     <header class="navbar">
         <a href="index.html" class="logo-link">
             <div class="logo">
-                <span class="icon"></span> 
+                <span class="icon"></span>
                 <span>Đặt sân Bách Khoa</span>
             </div>
         </a>
@@ -178,7 +178,7 @@
             <p>Vui lòng nhập Email đã đăng ký để nhận mã xác minh.</p>
             <input type="email" id="forgotEmail" placeholder="Email đã đăng ký*">
             <button onclick="sendVerificationCode()">Gửi mã xác minh</button>
-            
+
             <!-- Phần nhập mã xác minh (ẩn ban đầu) -->
             <div id="verificationSection" style="display: none;">
                 <input type="text" id="verificationCode" placeholder="Mã xác minh*">
@@ -223,7 +223,7 @@
         alert("Mã xác minh chính xác! Bạn có thể đặt lại mật khẩu.");
         closeForgotPasswordModal();
     }
-    
+
     // --- Đóng Modal khi nhấn ra ngoài nền mờ ---
     window.onclick = function(event) {
         if (event.target == loginModal) { closeModal(); }
